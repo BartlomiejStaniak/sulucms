@@ -2,3 +2,8 @@
 controllers:
     resource: ../src/Controller/Admin/
     type: attribute
+app_events_api:
+    type: rest
+    prefix: /admin/api
+    resource: App\Controller\Admin\ProgrammerController
+    name_prefix: app.

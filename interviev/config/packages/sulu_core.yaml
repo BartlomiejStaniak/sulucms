@@ -1,0 +1,10 @@
+# config/packages/sulu_core.yaml
+
+sulu_core:
+  webspace:
+    config_dir: App\Entity\Programmer
+#  objects:
+#    programmer:
+#      model: App\Entity\Programmer
+#      repository: sulu.repository.programmer
+#

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<list xmlns="http://schemas.sulu.io/list-builder/list">
+    <key>programmer</key>
+
+    <properties>
+        <property name="id" visibility="no" translation="sulu_admin.id">
+            <field-name>id</field-name>
+            <entity-name>App\Entity\Programmer</entity-name>
+        </property>
+
+        <property name="name" visibility="always" searchability="yes" translation="sulu_admin.name">
+            <field-name>name</field-name>
+            <entity-name>App\Entity\Programmer</entity-name>
+        </property>
+
+        <property name="surname" visibility="yes" translation="app.surname" type="string">
+            <field-name>surname</field-name>
+            <entity-name>App\Entity\Programmer</entity-name>
+        </property>
+
+        <property name="day_of_birth" visibility="yes" translation="app.day_of_birth" type="datetime">
+            <field-name>day_of_birth</field-name>
+            <entity-name>App\Entity\Programmer</entity-name>
+        </property>
+
+        <property name="height" visibility="yes" translation="app.height" type="integer">
+            <field-name>height</field-name>
+            <entity-name>App\Entity\Programmer</entity-name>
+        </property>
+
+        <property name="link_to_github" visibility="yes" translation="app.link_to_github" type="string">
+            <field-name>link_to_github</field-name>
+            <entity-name>App\Entity\Programmer</entity-name>
+        </property>
+    </properties>
+</list>

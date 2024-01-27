@@ -44,4 +44,6 @@ return [
     Sulu\Bundle\ActivityBundle\SuluActivityBundle::class => ['all' => true],
     Sulu\Bundle\TrashBundle\SuluTrashBundle::class => ['all' => true],
     Scheb\TwoFactorBundle\SchebTwoFactorBundle::class => ['all' => true],
+    Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
+    Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
 ];

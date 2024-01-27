@@ -1,0 +1,6 @@
+## config/packages/sulu_security.yaml
+#sulu_security:
+#  objects:
+#    user:
+#      model: App\Entity\Programmers
+##      repository: Sulu\Bundle\SecurityBundle\Entity\ProgrammersRepository
